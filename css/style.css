@@ -1,0 +1,233 @@
+  body{margin:0;
+        font-family: 'Roboto', sans-serif;
+      
+}
+        nav{
+            background-color: #7D63FC;
+            color: white;
+            margin: inherit;
+            display: inline-block;
+            margin: 10px;
+            font-size:20px;
+            
+            text-align: center;
+        
+            
+        } 
+nav a {
+    background-color: #7D63FC;
+}
+
+ header{color: 
+                
+            }
+        
+        nav a{color:white;
+            display: inline-flex;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            
+           
+          
+            }
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, .2);
+   
+}
+nav img{ 
+    max-width: 250px; padding: 0px;
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color:white;
+    background-color: #7D63FC;
+   
+}
+
+.navbar-expand-lg .navbar-collapse{ justify-content:flex-end;
+    
+}
+/* justify-content:flex-end;
+    */
+      /*  <nav class="menu">
+            
+            <a href="#intro"><img src="img/logo.svg"></a>
+            <a href="#quienessomos">¿Quiénes sómos?</a>
+            <a href="#Tratamientos">Tratamientos</a>
+            <a href="#AGENDA">Agenda</a>
+            <a href="#Ubicación">Ubicación</a>
+            <a href="#contacto">Contacto</a>
+
+html
+<nav class="navbar navbar-expand-lg ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#intro"><img src="img/logo.svg" ></a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+              <a class="nav-link" href="#quienessomos">Quiénes somos<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Tratamientos">Tratamientos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item active" href="#AGENDA">Agenda</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#Ubicación">Ubicación<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#contacto">Contacto<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+  </div>
+        </nav>
+
+        </nav>*/  
+        header{
+            position:sticky;
+            top: 0;
+            margin: 0;
+            background-color: #7D63FC;
+            text-align: left;
+            
+             text-align: center;
+            border:  3px solid blue;
+              z-index: 1;2
+            
+        }
+
+ .menu{
+            color:white;
+        }
+
+.carousel slide{position:absolute;}
+
+.mapa{border:  3px solid blue; 
+    position:relative;
+    
+}
+row mapa{
+    padding: 0px;
+}
+
+
+.ir-arriba{ display:inline-block;
+    padding:10px;
+    background-color: blue;
+    font-size:20px;
+    color:#fff;
+    cursor: pointer;
+}
+
+p1{font-size: 20px;
+color:#7D63FC;
+    text-align: center;
+}
+
+h2{
+    color:#7D63FC;
+    font-size:40px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Roboto black', sans-serif;
+}
+p{text-align: center;
+color:#7D63FC;
+font-size: 25px;}
+
+h3{ color:#fff;
+  text-align: center;
+    font-size: 40px;
+    
+  
+}
+
+.trata{background-color: #82D6D9;
+    
+    
+}
+p{
+    font-family: 'Roboto thin', sans-serif;
+    font-size: 20px;
+}
+
+
+ /*  border: 3px solid blue*/
+
+ /*border: 3px solid black;*/
+
+
+
+
+.agendatucita{
+    background-color:  #F8F8F8;
+    padding-bottom: 100px;
+}
+
+h4{
+    color:#82D6D9;
+}
+
+footer{
+            background-color: #82D6D9;
+            padding: 0px;
+            text-align: center;
+    
+    position:static;
+    padding-bottom: 0px;
+    padding-top: 200px;
+        }
+
+.btn-primary {
+    color: #fff;
+    background-color: #82D6D9;
+    border-color:#82D6D9;
+}
+
+
+h5{
+    color:#7D63FC;
+    text-align: center;
+    font-size: 30px;
+}
+        
+       /*border:  3px solid blue;*/
+i{
+    font-size: 60px;
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
+    color:#7D63FC; 
+}
+i:hover{
+     background-color: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+}
+
+p5{
+    color: #fff;
+    background-color: #7D63FC;
+    
+font-size: 30px;
+}
+p4{
+    color:white;
+    font-size: 40px;
+    background-color: #7D63FC;
+}
+
+
+.iconosredes img {border-radius: 50%;} 
+.iconosredes img:hover {
+    box-shadow: 0 0 20px 7px rgba(36, 43, 46, 0.79);
+    cursor:pointer;
+}
+
+
+   
