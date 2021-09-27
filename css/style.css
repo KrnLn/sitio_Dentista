@@ -7,7 +7,6 @@
             color: white;
             margin: inherit;
             display: inline-block;
-            margin: 10px;
             font-size:20px;
             
             text-align: center;
@@ -97,7 +96,7 @@ html
             text-align: left;
             
              text-align: center;
-            border:  3px solid blue;
+            
               z-index: 1;2
             
         }
@@ -108,13 +107,6 @@ html
 
 .carousel slide{position:absolute;}
 
-.mapa{border:  3px solid blue; 
-    position:relative;
-    
-}
-row mapa{
-    padding: 0px;
-}
 
 
 .ir-arriba{ display:inline-block;
@@ -175,7 +167,7 @@ h4{
 }
 
 footer{
-            background-color: #82D6D9;
+            background-color: #BD8ED9;
             padding: 0px;
             text-align: center;
     
@@ -190,7 +182,10 @@ footer{
     border-color:#82D6D9;
 }
 
-
+.mapa{
+    max-width: 800px; max-height: 400px;
+    min-width: 400px; max-height: 400px;
+}
 h5{
     color:#7D63FC;
     text-align: center;
@@ -203,7 +198,7 @@ i{
     color: aliceblue;
     padding: 30px;
     text-align: center;
-    color:#7D63FC; 
+    color:#fff; 
 }
 i:hover{
      background-color: rgba(0, 0, 0, .1);
@@ -212,14 +207,14 @@ i:hover{
 
 p5{
     color: #fff;
-    background-color: #7D63FC;
+    ;
     
 font-size: 30px;
 }
 p4{
     color:white;
     font-size: 40px;
-    background-color: #7D63FC;
+    
 }
 
 
