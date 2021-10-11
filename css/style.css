@@ -104,7 +104,13 @@ html
  .menu{
             color:white;
         }
+#intro{
+   
+}
 
+#quienessomos{
+    
+}
 .carousel slide{position:absolute;}
 
 
@@ -140,6 +146,9 @@ h3{ color:#fff;
   
 }
 
+#Tratamientos{
+    
+}
 .trata{background-color: #82D6D9;
     
     
@@ -160,10 +169,32 @@ p{
 .agendatucita{
     background-color:  #F8F8F8;
     padding-bottom: 100px;
+    
 }
 
 h4{
     color:#82D6D9;
+}
+
+
+#Ubicacion{
+    
+}
+.mapa{ 
+
+    
+}
+
+iframe{
+    width: 600px;
+    height: 300px;
+}
+
+.row {margin-right: 0px;}
+h5{
+    color:#7D63FC;
+    text-align: center;
+    font-size: 30px;
 }
 
 footer{
@@ -171,32 +202,32 @@ footer{
             padding: 0px;
             text-align: center;
     
+    
     position:static;
     padding-bottom: 0px;
-    padding-top: 200px;
+    padding-top: 100px;
+    font-family: 'Roboto thin', sans-serif;
         }
 
 .btn-primary {
     color: #fff;
     background-color: #82D6D9;
     border-color:#82D6D9;
+     font-family: 'Roboto bold', sans-serif;
+    
 }
 
-.mapa{
-    max-width: 800px; max-height: 400px;
-    min-width: 400px; max-height: 400px;
-}
-h5{
-    color:#7D63FC;
-    text-align: center;
-    font-size: 30px;
-}
         
        /*border:  3px solid blue;*/
+
+.textosonrisa{
+    padding-bottom: 50px;
+    font-family: 'Roboto black', sans-serif;
+}
 i{
-    font-size: 60px;
+    font-size: 40px;
     color: aliceblue;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     color:#fff; 
 }
@@ -207,22 +238,42 @@ i:hover{
 
 p5{
     color: #fff;
-    ;
+     font-family: 'Roboto thin', sans-serif;
     
-font-size: 30px;
+    
+font-size: 25px;
 }
 p4{
     color:white;
     font-size: 40px;
+margin-bottom: 20px;
     
 }
-
-
-.iconosredes img {border-radius: 50%;} 
-.iconosredes img:hover {
-    box-shadow: 0 0 20px 7px rgba(36, 43, 46, 0.79);
-    cursor:pointer;
+h6{
+    font-family: 'Roboto medium', sans-serif;
+    color: aliceblue;
 }
 
+p7{
+    color: aliceblue;
+}
 
+.footersito{
+    text-align: left;
+    padding: 40px;
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+    .map-responsive{max-width: 600;}
+   
+}
+
+@media (max-width: 610px) {
+iframe{
+    width: 400px;
+    height: 300px;
+}
+
+}
    
